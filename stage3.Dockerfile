@@ -13,7 +13,7 @@ WORKDIR /gentoo
 
 ARG ARCH=amd64
 ARG MICROARCH=amd64
-ARG SUFFIX
+ARG SUFFIX=-uclibc-vanilla
 ARG DIST="http://distfiles.gentoo.org/releases/${ARCH}/autobuilds/"
 ARG SIGNING_KEY="0xBB572E0E2D182910"
 
